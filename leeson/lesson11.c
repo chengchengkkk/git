@@ -14,3 +14,4 @@ int main(void)
     printf("%d\n", score);
     return 0;
 }
+//extern 外部的相当于这句话可以删掉，作用一致
