@@ -2,7 +2,7 @@
 int count=10;
 void counter(void)
 {
-   static int count = 0;
+   //static int count = 0;
    count=count+1;
     printf("count=%d",count);
 }
@@ -18,3 +18,4 @@ int main(void)
     counter();
     return 0;
 }
+
