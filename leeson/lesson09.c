@@ -1,5 +1,5 @@
 #include <stdio.h>
-int *get_larger(int *a, int *b)
+int *get_larger(int *a, int *b)   //指针函数，函数的返回值是指针
 {
     // 自己完成
     if (*a>*b)
