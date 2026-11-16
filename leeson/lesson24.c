@@ -2,7 +2,11 @@
 #include<stdlib.h>
 #define ADD(x, y) ((x) + (y))
 #define SHOW(x) printf("%s\n", #x)
-#define JOIN(a, b) a##b
+#define JOIN(a, b) a##b 
+static inline int square(int n)
+{
+    return n*n;
+}
 int main()
 {
     //ADD(10,20);
@@ -12,4 +16,6 @@ int main()
     int motor2=200;
     printf("%d\n", JOIN(motor, 1));
     printf("%d\n", JOIN(motor, 2));
+    printf("%d\n", square(5));
+
 }
