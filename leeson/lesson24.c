@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #define ADD(x, y) ((x) + (y))
 #define SHOW(x) printf("%s\n", #x)
 #define JOIN(a, b) a##b
