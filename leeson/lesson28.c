@@ -29,15 +29,7 @@ int main()
     change_speed(dogs+1, 40);
     for(int i=0;i<3;i++)//i对于q来说是计数器的作用
     {
-        printf("%s %f %.2f ",(p+i)->id,(p+i)->speed,(p+i)->battery);
         printf("%s %f %.2f ",q->id,q->speed,q->battery);
         q++;
     }
 }
-/*for(struct robot *q=dogs; q<dogs+3; q++)
-{
-    printf("%s %.2f %.2f\n",
-           q->id,
-           q->speed,
-           q->battery);
-}*/
