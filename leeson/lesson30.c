@@ -31,10 +31,7 @@ struct robot dogs[] = {
 };
 int main()
 {
-    struct robot *p=dogs;
-    struct robot *q=dogs+1;
-    struct robot *z=dogs+2;
-    struct robot fastest = speedfast(dogs, 4);
+    struct robot fastest = speedfast(dogs, 4);//dogs数组名，代表指针，所以理论上上面那个函数定义写*dogs最合适
     printf("%s %.1f %.2f\n",
        fastest.id,
        fastest.speed,
